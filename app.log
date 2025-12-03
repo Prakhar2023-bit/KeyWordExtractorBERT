@@ -1,0 +1,147 @@
+2025-09-16 23:21:43,185 - __main__ - INFO - Loading KeyBERT with model: paraphrase-multilingual-MiniLM-L12-v2
+2025-09-16 23:21:43,194 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-09-16 23:21:43,194 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+2025-09-16 23:21:50,907 - __main__ - INFO - Loading spaCy model
+2025-09-16 23:21:50,907 - __main__ - ERROR - Failed to load models: [E050] Can't find model 'True'. It doesn't seem to be a Python package or a valid path to a data directory.
+Traceback (most recent call last):
+  File "D:\PROJECTS\KeyWordExtractorBERT\app.py", line 599, in load_all_models
+    models['spacy'] = load_spacy_model(is_multilingual)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sourav\AppData\Local\Programs\Python\Python311\Lib\site-packages\streamlit\runtime\caching\cache_utils.py", line 227, in __call__
+    return self._get_or_create_cached_value(args, kwargs, spinner_message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sourav\AppData\Local\Programs\Python\Python311\Lib\site-packages\streamlit\runtime\caching\cache_utils.py", line 269, in _get_or_create_cached_value
+    return self._handle_cache_miss(cache, value_key, func_args, func_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sourav\AppData\Local\Programs\Python\Python311\Lib\site-packages\streamlit\runtime\caching\cache_utils.py", line 328, in _handle_cache_miss
+    computed_value = self._info.func(*func_args, **func_kwargs)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PROJECTS\KeyWordExtractorBERT\src\caching.py", line 30, in load_spacy_model
+    return spacy.load(model_name)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sourav\AppData\Local\Programs\Python\Python311\Lib\site-packages\spacy\__init__.py", line 54, in load
+    return util.load_model(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\sourav\AppData\Local\Programs\Python\Python311\Lib\site-packages\spacy\util.py", line 439, in load_model
+    raise IOError(Errors.E050.format(name=name))
+OSError: [E050] Can't find model 'True'. It doesn't seem to be a Python package or a valid path to a data directory.
+2025-09-16 23:21:51,021 - __main__ - INFO - load_all_models took 8.65 seconds
+2025-09-16 23:22:03,556 - __main__ - INFO - Loading KeyBERT with model: paraphrase-multilingual-MiniLM-L12-v2
+2025-09-16 23:22:03,556 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-09-16 23:22:03,556 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+2025-09-16 23:22:11,867 - __main__ - INFO - Loading spaCy model
+2025-09-16 23:22:11,867 - __main__ - ERROR - Failed to load models: [E050] Can't find model 'True'. It doesn't seem to be a Python package or a valid path to a data directory.
+Traceback (most recent call last):
+  File "D:\PROJECTS\KeyWordExtractorBERT\app.py", line 599, in load_all_models
+    models['spacy'] = load_spacy_model(is_multilingual)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sourav\AppData\Local\Programs\Python\Python311\Lib\site-packages\streamlit\runtime\caching\cache_utils.py", line 227, in __call__
+    return self._get_or_create_cached_value(args, kwargs, spinner_message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sourav\AppData\Local\Programs\Python\Python311\Lib\site-packages\streamlit\runtime\caching\cache_utils.py", line 269, in _get_or_create_cached_value
+    return self._handle_cache_miss(cache, value_key, func_args, func_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sourav\AppData\Local\Programs\Python\Python311\Lib\site-packages\streamlit\runtime\caching\cache_utils.py", line 328, in _handle_cache_miss
+    computed_value = self._info.func(*func_args, **func_kwargs)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PROJECTS\KeyWordExtractorBERT\src\caching.py", line 30, in load_spacy_model
+    return spacy.load(model_name)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sourav\AppData\Local\Programs\Python\Python311\Lib\site-packages\spacy\__init__.py", line 54, in load
+    return util.load_model(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\sourav\AppData\Local\Programs\Python\Python311\Lib\site-packages\spacy\util.py", line 439, in load_model
+    raise IOError(Errors.E050.format(name=name))
+OSError: [E050] Can't find model 'True'. It doesn't seem to be a Python package or a valid path to a data directory.
+2025-09-16 23:22:11,874 - __main__ - INFO - load_all_models took 9.14 seconds
+2025-09-16 23:26:04,181 - __main__ - INFO - Loading KeyBERT with model: all-MiniLM-L6-v2
+2025-09-16 23:26:04,188 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-09-16 23:26:04,188 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-16 23:26:09,634 - __main__ - INFO - Loading spaCy model
+2025-09-16 23:26:09,638 - __main__ - ERROR - Failed to load models: [E050] Can't find model 'False'. It doesn't seem to be a Python package or a valid path to a data directory.
+Traceback (most recent call last):
+  File "D:\PROJECTS\KeyWordExtractorBERT\app.py", line 599, in load_all_models
+    models['spacy'] = load_spacy_model(is_multilingual)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sourav\AppData\Local\Programs\Python\Python311\Lib\site-packages\streamlit\runtime\caching\cache_utils.py", line 227, in __call__
+    return self._get_or_create_cached_value(args, kwargs, spinner_message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sourav\AppData\Local\Programs\Python\Python311\Lib\site-packages\streamlit\runtime\caching\cache_utils.py", line 269, in _get_or_create_cached_value
+    return self._handle_cache_miss(cache, value_key, func_args, func_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sourav\AppData\Local\Programs\Python\Python311\Lib\site-packages\streamlit\runtime\caching\cache_utils.py", line 328, in _handle_cache_miss
+    computed_value = self._info.func(*func_args, **func_kwargs)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PROJECTS\KeyWordExtractorBERT\src\caching.py", line 30, in load_spacy_model
+    return spacy.load(model_name)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sourav\AppData\Local\Programs\Python\Python311\Lib\site-packages\spacy\__init__.py", line 54, in load
+    return util.load_model(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\sourav\AppData\Local\Programs\Python\Python311\Lib\site-packages\spacy\util.py", line 439, in load_model
+    raise IOError(Errors.E050.format(name=name))
+OSError: [E050] Can't find model 'False'. It doesn't seem to be a Python package or a valid path to a data directory.
+2025-09-16 23:26:09,643 - __main__ - INFO - load_all_models took 6.28 seconds
+2025-09-16 23:26:33,920 - __main__ - INFO - Loading KeyBERT with model: all-MiniLM-L6-v2
+2025-09-16 23:26:33,921 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-09-16 23:26:33,921 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2025-09-16 23:26:40,862 - __main__ - INFO - Loading spaCy model
+2025-09-16 23:26:40,871 - __main__ - INFO - Models already being loaded, waiting...
+2025-09-16 23:33:18,038 - __main__ - INFO - Loading KeyBERT with model: paraphrase-multilingual-MiniLM-L12-v2
+2025-09-16 23:33:18,038 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-09-16 23:33:18,038 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+2025-09-16 23:33:25,122 - __main__ - INFO - Loading spaCy model
+2025-09-16 23:33:25,122 - __main__ - ERROR - Failed to load models: [E050] Can't find model 'True'. It doesn't seem to be a Python package or a valid path to a data directory.
+Traceback (most recent call last):
+  File "D:\PROJECTS\KeyWordExtractorBERT\app.py", line 599, in load_all_models
+    models['spacy'] = load_spacy_model(is_multilingual)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sourav\AppData\Local\Programs\Python\Python311\Lib\site-packages\streamlit\runtime\caching\cache_utils.py", line 227, in __call__
+    return self._get_or_create_cached_value(args, kwargs, spinner_message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sourav\AppData\Local\Programs\Python\Python311\Lib\site-packages\streamlit\runtime\caching\cache_utils.py", line 269, in _get_or_create_cached_value
+    return self._handle_cache_miss(cache, value_key, func_args, func_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sourav\AppData\Local\Programs\Python\Python311\Lib\site-packages\streamlit\runtime\caching\cache_utils.py", line 328, in _handle_cache_miss
+    computed_value = self._info.func(*func_args, **func_kwargs)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PROJECTS\KeyWordExtractorBERT\src\caching.py", line 30, in load_spacy_model
+    return spacy.load(model_name)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sourav\AppData\Local\Programs\Python\Python311\Lib\site-packages\spacy\__init__.py", line 54, in load
+    return util.load_model(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\sourav\AppData\Local\Programs\Python\Python311\Lib\site-packages\spacy\util.py", line 439, in load_model
+    raise IOError(Errors.E050.format(name=name))
+OSError: [E050] Can't find model 'True'. It doesn't seem to be a Python package or a valid path to a data directory.
+2025-09-16 23:33:25,134 - __main__ - INFO - load_all_models took 7.92 seconds
+2025-09-17 10:10:30,284 - __main__ - INFO - Loading KeyBERT with model: paraphrase-multilingual-MiniLM-L12-v2
+2025-09-17 10:10:30,286 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-09-17 10:10:30,286 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: paraphrase-multilingual-MiniLM-L12-v2
+2025-09-17 10:10:36,293 - __main__ - INFO - Loading spaCy model
+2025-09-17 10:10:36,293 - __main__ - ERROR - Failed to load models: [E050] Can't find model 'True'. It doesn't seem to be a Python package or a valid path to a data directory.
+Traceback (most recent call last):
+  File "D:\PROJECTS\KeyWordExtractorBERT\app.py", line 599, in load_all_models
+    models['spacy'] = load_spacy_model(is_multilingual)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sourav\AppData\Local\Programs\Python\Python311\Lib\site-packages\streamlit\runtime\caching\cache_utils.py", line 227, in __call__
+    return self._get_or_create_cached_value(args, kwargs, spinner_message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sourav\AppData\Local\Programs\Python\Python311\Lib\site-packages\streamlit\runtime\caching\cache_utils.py", line 269, in _get_or_create_cached_value
+    return self._handle_cache_miss(cache, value_key, func_args, func_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sourav\AppData\Local\Programs\Python\Python311\Lib\site-packages\streamlit\runtime\caching\cache_utils.py", line 328, in _handle_cache_miss
+    computed_value = self._info.func(*func_args, **func_kwargs)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\PROJECTS\KeyWordExtractorBERT\src\caching.py", line 30, in load_spacy_model
+    return spacy.load(model_name)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\sourav\AppData\Local\Programs\Python\Python311\Lib\site-packages\spacy\__init__.py", line 54, in load
+    return util.load_model(
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\sourav\AppData\Local\Programs\Python\Python311\Lib\site-packages\spacy\util.py", line 439, in load_model
+    raise IOError(Errors.E050.format(name=name))
+OSError: [E050] Can't find model 'True'. It doesn't seem to be a Python package or a valid path to a data directory.
+2025-09-17 10:10:36,303 - __main__ - INFO - load_all_models took 6.84 seconds
+2025-09-17 10:14:31,553 - sentence_transformers.SentenceTransformer - INFO - Use pytorch device_name: cpu
+2025-09-17 10:14:31,553 - sentence_transformers.SentenceTransformer - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
